@@ -1,0 +1,43 @@
+body {
+    background: #FC5C7D;
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-start;
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+}
+
+.header-left {
+    font-family: 'AmaticSC-Regular';
+   
+}
+
+
+
+
+.header-right {
+    font-family: 'RussoOne-Regular';
+   
+}
+
+h1 {
+    font-size: 50px;
+    background: #2E2F45;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+
+}
